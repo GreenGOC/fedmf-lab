@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local data and cached dataset partitions
+data/
+cache/
+
+# Generated experiment outputs
+plots/
+results/
+validation_results/
+inference_attacks/
+
+# Local research documents and extracted article text
+*.pdf
+output.txt
