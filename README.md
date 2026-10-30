@@ -1,11 +1,11 @@
-# Federated Matrix Factorization for Recommendation
+# FedMF Lab
 
-**A research prototype for studying privacy-aware matrix factorization across vertical, horizontal, and local federated learning settings.**
+**A simulation framework for studying federated matrix factorization across vertical, horizontal, and local learning settings.**
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Research prototype](https://img.shields.io/badge/status-research%20prototype-7057ff)](#scope-and-limitations)
 
-This project provides a simulation framework for comparing federated matrix-factorization methods on rating data. It includes implementations for three data-partitioning settings, federated optimization baselines, differential-privacy-related mechanisms, and model-utility and membership-inference evaluation.
+FedMF Lab is a research prototype for comparing matrix-factorization methods under federated data partitions. It simulates multiple parties and a coordinating server in one program; it is not a decentralized deployment. The code includes three partitioning settings, federated optimization baselines, differential-privacy-related mechanisms, and model-utility and membership-inference evaluation.
 
 > **Important:** This repository is research software, not a production federated-learning or privacy system. Experiments run in a local simulation; enabling noise or setting \(\epsilon\) and \(\delta\) does not by itself establish a formal privacy guarantee. Independently validate the implementation and accounting before drawing privacy conclusions.
 
